@@ -1,0 +1,14 @@
+Function: number, number sranipal.Init()
+Description: Initializes SRanipal eye and facial tracking engines. The return values
+are initialization error codes, first one is for eye tracking, second for facial
+tracking. Code 0 means the engine was started successfully.
+
+Function: sranipal.Shutdown()
+Description:
+
+Function: table, table sranipal.GetEyeData()
+Description: Returns tables containing SRanipal eye tracking output. The first table is
+for the left eye, second is for the right eye.
+
+Function: table sranipal.GetLipData()
+Description: Returns a table containing SRanipal facial tracking output.
